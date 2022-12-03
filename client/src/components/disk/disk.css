@@ -1,0 +1,34 @@
+.disk {
+	width: 90%;
+	margin-top: 20px;
+}
+
+.disk__btns {
+	display: flex;
+}
+
+.disk__create {
+	margin-left: 10px;
+}
+
+.disk__upload-input {
+	display: none;
+}
+
+.disk__upload-label {
+	border: 2px dashed #566885;
+	padding: 5px 10px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.drop-area {
+	width: 60%;
+	height: calc(100vh - 300px);
+	margin: 20px;
+	border: dashed #566885 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
